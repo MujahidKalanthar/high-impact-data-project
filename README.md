@@ -29,14 +29,16 @@ An end-to-end data analytics platform that ingests real-world COVID-19 data, cle
 
 ## 📁 Folder Structure
 
+```bash
 high-impact-data-project/
 │
-├── app.py # Main Streamlit app
-├── requirements.txt # Package list
-├── README.md # Project overview
+├── app.py                  # Main Streamlit app
+├── requirements.txt        # Package list
+├── README.md               # Project overview
 └── src/
-├── data_pipeline.py # Data ingestion, cleaning, feature engineering
-└── modeling.py # Model training & prediction
+    ├── data_pipeline.py    # Data ingestion, cleaning, feature engineering
+    └── modeling.py         # Model training & prediction
+```
 
 ---
 
@@ -49,3 +51,24 @@ python -m venv venv
 source venv/bin/activate  # or .\venv\Scripts\activate on Windows
 pip install -r requirements.txt
 streamlit run app.py
+```    
+
+---
+## 📌 To-Do / Future Improvements
+
+- [ ] Add hyperparameter tuning
+- [ ] Improve model performance with cross-validation
+- [ ] Visualize RMSE & error metrics
+- [ ] Add more features: mobility, weather, etc.
+- [ ] Dockerize & deploy to VPS
+      
+---
+
+## 🤝 Credits
+
+Built with 💻 by [Mujahid Kalanthar](https://github.com/MujahidKalanthar)   
+Inspired by real-world problems and a drive to learn 🔥
+
+---
+
+
